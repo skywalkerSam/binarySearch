@@ -2,7 +2,7 @@
 
 The binary search algorithm.
 
-<img src="./Resources/memes/theBiggestSin.jpg" alt="*theBiggestSin" width=450>
+<img src="./Resources/memes/theBiggestSin.jpg" alt="*theBiggestSin" width=450 target="_blank">
 
 ## Getting started
 
