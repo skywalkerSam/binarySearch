@@ -1,8 +1,9 @@
 import { expect, test } from "vitest";
+import { sortThis } from "./src/binarySearch";
+import { binarySearch } from "./src/binarySearch";
 
 let array: string[] = ["hello", "world", "wtf", "fml", "idk"];
 
-import { sortThis } from "./src/binarySearch";
 test("Sorted Array", () => {
   expect(sortThis(array)).toStrictEqual([
     "fml",
@@ -13,7 +14,6 @@ test("Sorted Array", () => {
   ]);
 });
 
-import { binarySearch } from "./src/binarySearch";
 test("Binary Search", () => {
   expect(binarySearch(array, "wtf")).toBe(2);
 });
@@ -44,7 +44,6 @@ let theArray: string[] = [
   "...",
 ];
 
-// import { binarySearch } from "./src/binarySearch";
-// test("Another BS", () => {
-//   expect(binarySearch(theArray, "Universe")).toBe(5);
-// });
+test("Another BS", () => {
+  expect(binarySearch(theArray, "Universe")).toBe(5);
+});
